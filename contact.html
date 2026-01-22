@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Triple G Plumbing for all your plumbing needs. Call (903) 569-7286 or fill out our contact form for a free quote.">
+    <title>Contact Us | Triple G Plumbing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Triple G Plumbing Logo">
+                    <span class="logo-text">Triple G Plumbing</span>
+                </div>
+                <nav class="nav" id="mainNav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="gallery.html" class="nav-link">Projects</a>
+                    <a href="reviews.html" class="nav-link">Reviews</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </nav>
+                <a href="tel:9035697286" class="btn btn-primary header-cta">Call (903) 569-7286</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Page -->
+    <section class="contact-page">
+        <div class="container">
+            <h1 class="section-title">Get in Touch</h1>
+            <p class="section-intro">Need plumbing service? Contact us today for a free quote or to schedule an appointment.</p>
+
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Phone:</strong><br>
+                    <a href="tel:9035697286">(903) 569-7286</a></p>
+                    
+                    <p style="margin-top: 30px;"><strong>Business Hours:</strong><br>
+                    Monday - Friday: 7:00 AM - 5:00 PM<br>
+                    Saturday: 8:00 AM - 2:00 PM<br>
+                    Sunday: Emergency service available</p>
+
+                    <p style="margin-top: 30px;"><strong>Emergency Service:</strong><br>
+                    We provide emergency plumbing service for urgent situations. Call us anytime at <a href="tel:9035697286">(903) 569-7286</a>.</p>
+
+                    <div style="margin-top: 40px; padding: 25px; background-color: var(--light-gray); border-radius: 8px;">
+                        <h4 style="margin-bottom: 15px; color: var(--primary-color);">Why Choose Triple G?</h4>
+                        <ul style="list-style-position: inside; color: var(--text-gray);">
+                            <li style="margin-bottom: 10px;">Licensed & insured</li>
+                            <li style="margin-bottom: 10px;">Experienced technicians</li>
+                            <li style="margin-bottom: 10px;">Fair, transparent pricing</li>
+                            <li style="margin-bottom: 10px;">Quality workmanship</li>
+                            <li>4.1-star rating with 51 reviews</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3 style="margin-bottom: 25px; color: var(--primary-color);">Request a Quote</h3>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="general">General Plumbing</option>
+                                <option value="water-heater">Water Heater Service</option>
+                                <option value="drain-cleaning">Drain Cleaning</option>
+                                <option value="leak-detection">Leak Detection</option>
+                                <option value="sewer-camera">Sewer Camera Inspection</option>
+                                <option value="generator">Generator Installation</option>
+                                <option value="emergency">Emergency Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="propertyType">Property Type</label>
+                            <select id="propertyType" name="propertyType">
+                                <option value="">Select property type</option>
+                                <option value="residential">Residential</option>
+                                <option value="commercial">Commercial</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell us about your plumbing needs *</label>
+                            <textarea id="message" name="message" required placeholder="Please describe the issue or service you need..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+
+                    <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-gray); text-align: center;">
+                        Or call us directly at <a href="tel:9035697286" style="color: var(--primary-color); font-weight: 600;">(903) 569-7286</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Triple G Plumbing</h3>
+                    <p>Professional plumbing services for your home and business.</p>
+                    <p class="footer-phone"><a href="tel:9035697286">(903) 569-7286</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">General Plumbing</a></li>
+                        <li><a href="services.html">Water Heaters</a></li>
+                        <li><a href="services.html">Drain Cleaning</a></li>
+                        <li><a href="services.html">Leak Detection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Projects</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Triple G Plumbing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
